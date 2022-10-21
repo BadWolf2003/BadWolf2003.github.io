@@ -11469,3 +11469,12 @@ header.masthead h1, header.masthead .h1 {
     position: fixed;
     z-index: 100; 
 }
+
+#prof1{
+  max-width: 100%;
+  
+}
+
+#imtext1{
+  display: flex;
+}
