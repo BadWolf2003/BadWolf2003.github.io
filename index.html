@@ -109,19 +109,24 @@
           class="row gx-4 gx-lg-5 h-100 align-items-left justify-content-left text-left"
         >
           <div class="col-lg-8 align-self-end">
-            <p class="text-white font-weight-bold">Hi, my name is</p>
+            <p class="text-white font-weight-bold">Hello, my name is</p>
             <h1 class="text-white font-weight-bold">Matteo Da Venezia</h1>
             <h2 class="text-white font-weight-bold">
-              IT Engineer, Student, Developer and Curious Mind
+              IT Engineer | Student | Curious Mind
             </h2>
           </div>
 
           <div class="col-lg-8 align-self-baseline">
             <p class="text-white-75 mb-5">
-              I'm an IT engineer specializing in Cybersecurity and Etical
-              Hacking (among other things...). Currently, I'm focused on the
-              development of multiple projects related to the web and mobile
-              platforms to improve human life.
+              I'm an Irish/Italian IT Engineer currently living <br> and studying in Dublin, Ireland.
+              <br>
+              <br>
+              Prior to move to Dublin, I lived and studied in Venice, Italy, for 19 years.
+              <br>
+              <br>
+              I am passionate about technology and how it can improve human life for the better,
+              specifically with more advanced technologies to make humans even more productive and organized. <br>
+
             </p>
             <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
           </div>
@@ -140,12 +145,40 @@
           <!--TEXT-->
           <!--AboutIntro-->
           <div class="col-lg-8 text-left">
-            <h2 class="text-white mt-0">01.About Me</h2>
-            <p class="text-white">1</p>
-            <p class="text-white">2</p>
-            <p class="text-white">3</p>
-            <p class="text-white">4</p>
-            <p class="text-white">5</p>
+            <h2 class="text-white mt-0">01. &nbsp <b>About Me</b></h2>
+            <br>
+
+            <p class="text-white"><b>PASSIONS:</b></p>
+            <br>
+            <!--LIST GROUP-->
+            <div class="row">
+              <div class="col-4">
+                <div class="list-group" id="myPassions" role="tablist">
+                  <a class="text-white list-group-item list-group-item-action" id="technology" data-toggle="list" href="#technology" role="tab" aria-controls="technology">Technology</a>
+                  <a class="text-white list-group-item list-group-item-action" id="reading" data-toggle="list" href="#reading" role="tab" aria-controls="reading">Reading</a>
+                  <a class="text-white list-group-item list-group-item-action" id="gaming" data-toggle="list" href="#gaming" role="tab" aria-controls="gaming">Gaming</a>
+                  <a class="text-white list-group-item list-group-item-action" id="fitness" data-toggle="list" href="#fitness" role="tab" aria-controls="fitness">Fitness</a>
+                </div>
+              </div>
+              <!--TAB PANES-->
+              <div class="col-8">
+                <div class="tab-content" id="nav-tabContent">
+                  <div class="text-white tab-pane fade show active" id="technology" role="tabpanel" aria-labelledby="list-technology-list"> test 1</div>
+                  <div class="text-white tab-pane fade active" id="reading" role="tabpanel" aria-labelledby="list-profile-list">test 2</div>
+                  <div class="text-white tab-pane fade active" id="gaming" role="tabpanel" aria-labelledby="list-messages-list">test 3</div>
+                  <div class="text-white tab-pane fade active" id="fitness" role="tabpanel" aria-labelledby="list-settings-list">test 4</div>
+                </div>
+              </div>
+            </div>
+
+            <br>
+
+            <p class="text-white"><b>HOBBIES:</b></p>
+            <br>
+            <p class="text-white"><b>SOFT SKILLS:</b></p>
+            <br>
+            <p class="text-white"><b>HARD SKILLS:</b></p>
+            <br>
           </div>
           <div class="col-lg-8 text-left">
             <h3 class="text-white mb-3">Work Experience</h3>
@@ -234,43 +267,6 @@
     <!-- Projects-->
   <section class="page-section bg-primary" id="projects">
 
-   <!-- <div class="container mt-5" id="projects">
-        <h3 class="text-white">Projects</h3>
-        <div class="row">
-            <div class="col-lg-3">
-                <div class="card m-b-3">
-                    <img src="https://picsum.photos/400/200" alt="Minerva" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Minerva</h5>
-                        <p class="card-text">SuperPWA to improve human life</p>
-                        <div class="btn btn-primary mt-3">View</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="card m-b-3">
-                    <img src="https://picsum.photos/400/200" alt="Project2" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Project2</h5>
-                        <p class="card-text">Desc2</p>
-                        <div class="btn btn-primary mt-3">View</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="card m-b-3">
-                    <img src="https://picsum.photos/400/200" alt="Project3" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Project3</h5>
-                        <p class="card-text">Desc3</p>
-                        <div class="btn btn-primary mt-3">View</div>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-   </div> -->
-
    <div class="container">
     <h2 class="text-white">02.Projects</h2>
 
@@ -307,7 +303,7 @@
       </div>
       <div class="container mt-5">
         <h4 class="text-white text-center">Other Noteworthy Projects</h4>
-        <a href="#" align="middle" style="width: 100%; display: block;">Archive</a>
+        <a class="text-center" href="#" style="width: 100%; display: block;">Archive</a>
       </div>
     </div>
    </div>
@@ -509,5 +505,6 @@
         loader.style.display = "none";
       });
     </script>
+
   </body>
 </html>
