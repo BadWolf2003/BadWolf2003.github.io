@@ -4517,6 +4517,7 @@ textarea.form-control-lg {
   min-width: 0;
   word-wrap: break-word;
   background-color: #20C20E;
+  color:#20C20E;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -7779,7 +7780,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: #20C20E !important;
 }
 
 .text-black-50 {
